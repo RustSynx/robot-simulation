@@ -19,7 +19,7 @@ int main() {
   if (!glfwInit())
     return 1;
   char error[1000] = "Could not load binary model";
-  std::string modelPath = std::string(SOURCE_DIR) + "/ur5e.xml";
+  std::string modelPath = std::string(SOURCE_DIR) + "/3dof_control.xml";
   m = mj_loadXML(modelPath.c_str(), 0, error, 1000);
   d = mj_makeData(m);
 

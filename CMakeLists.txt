@@ -16,7 +16,6 @@ CPMAddPackage(
         NAME mujoco
         GIT_REPOSITORY https://github.com/google-deepmind/mujoco.git
         GIT_TAG 3.4.0
-        QUIET
 )
 
 set(CMAKE_MESSAGE_LOG_LEVEL STATUS)
